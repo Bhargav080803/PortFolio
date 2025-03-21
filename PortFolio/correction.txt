@@ -1,0 +1,196 @@
+.Contact > main {
+  width: 80%;
+  height: 80%;
+  border: 3px solid #f39c12;
+}
+
+.Experience > main > h1 {
+  font-size: 50px;
+  color: #f1c40f;
+  text-align: center;
+  text-decoration: underline;
+  padding: 30px;
+  font-family: "Merriweather", serif;
+}
+
+.Experience > main > article {
+  width: 100%;
+  height: 79.5%;
+  background: rgba(52, 73, 94, 0.5);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  flex-direction: column;
+  padding: 30px;
+  color: white;
+}
+
+.Experience > main > article > h1 {
+  font-size: 30px;
+}
+.Experience > main > article > h3 {
+  font-size: 25px;
+}
+
+.Experience > main > article > p {
+  font-size: 20px;
+}
+
+/* Acheivements */
+
+.Acheivements {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(#2c3e50, #34495e);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Acheivements > main {
+  width: 80%;
+  height: 80%;
+  border: 3px solid #f39c12;
+}
+
+.Acheivements > main > h1 {
+  font-size: 50px;
+  color: #f1c40f;
+  text-align: center;
+  text-decoration: underline;
+  padding: 30px;
+  font-family: "Merriweather", serif;
+}
+
+.Acheivements > main > article {
+  width: 100%;
+  height: 79.5%;
+  background: rgba(52, 73, 94, 0.5);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.Acheivements > main > article > div {
+  width: 45%;
+  height: 45%;
+  border-radius: 10px;
+
+  background: rgba(218, 223, 228, 0.392);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.Acheivements > main > article > div > h1 {
+  font-size: 25px;
+}
+
+.Acheivements > main > article > div > p {
+  font-size: 16px;
+  padding: 5px;
+}
+
+/* contact */
+
+.Contact > main > h1 {
+  font-size: 50px;
+  color: #f1c40f;
+  text-align: center;
+  text-decoration: underline;
+  padding: 30px;
+  font-family: "Merriweather", serif;
+}
+
+.Contact > main > article {
+  width: 100%;
+  height: 79.5%;
+  background: rgba(67, 93, 120, 0.5);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+
+  font-family: "Poppins", sans-serif;
+}
+
+.info,
+.contactForm {
+  width: 45%;
+  height: 85%;
+  background: rgba(21, 29, 37, 0.5);
+  /* border-radius: 30px;  */
+  padding: 20px;
+}
+
+.info p,
+address {
+  font-size: 18px;
+  color: #f1c40f;
+  padding: 5px;
+}
+
+.info a {
+  color: white;
+  font-size: 18px;
+}
+.allLinks {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+
+  gap: 20px;
+}
+
+.allLinks a {
+  color: white;
+  padding-bottom: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 30px;
+}
+
+input,
+textarea {
+  color: white;
+  height: 50px;
+  background: rgba(21, 29, 37, 0.5);
+  outline: none;
+  border: none;
+  padding: 20px;
+}
+
+textarea {
+  height: 200px;
+}
+
+form > a {
+  display: inline-block;
+  color: #f1c40f;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  background: rgba(21, 29, 37, 0.5);
+}
+
+.contactForm{
+    width: 40vw;
+    height: 53.5vh;
+}
